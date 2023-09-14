@@ -109,7 +109,7 @@ Aqui estão algumas sugestões específicas para melhorar a segurança da aviaç
 * Treinamento mais rigoroso para pilotos e controladores de tráfego aéreo;
 * Melhoria da fiscalização e regulamentação da aviação civil;
 * Conscientização pública sobre segurança aeronáutica.
-* 
+  
 A implementação dessas medidas pode contribuir para reduzir o número de acidentes aéreos no Brasil e tornar o transporte aéreo mais seguro para todos.
 
 
