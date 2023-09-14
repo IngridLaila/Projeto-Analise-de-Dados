@@ -41,17 +41,10 @@ Melhorar a compreensão das dinâmicas complexas que moldam este mercado;
 Realizei o processo de ETL de dados como parte da preparação para a análise.
 
 Você encontrará o Notebook Colab que explora o processo de suas fontes originais, neste repositório, na seguinte pasta:
-[Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20da%20Base%20ITBI/ITBI.ipynb). 
+[Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/Case%20Airbnb/Projeto/Projeto_Case_AirBnb.ipynb). 
 
-Pasta 'ETL das Bases IPTU e FIPE': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20das%20Bases%20IPTU%20e%20FIPE/ETL_process_BigQuery_IPTU_E_TABELA_FIPE.ipynb.ipynb).
+Além disso, encontrá no mesmo arquivo a documentação detalhada, com anotações.
 
-Na pasta "ETL - IPTU E TABELA FIPE", você pode encontrar um álbum de recortes do processo ETL.
-
-Documentação detalhada, com anotações e capturas de tela.
-
-O processo ETL (Extrair, Transformar, Carregar) foi feito usando o BigQuery e é mostrado passo a passo.
-
-Este recurso valioso fornece insights sobre técnicas de manipulação e transformação de dados, permitindo que você rastreie e entenda os passos complexos de preparação de dados.
 
 ## Kit de ferramentas de análise 🛠️
 
@@ -59,55 +52,40 @@ As seguintes ferramentas foram utilizadas:
 
 * Google Cloud Platform (GCP): Armazenamento e processamento de dados.
 * Google Colaboratory: Pré-análise e transformação de dados.
-* Pandas, Numpy, Matplotlib, Seaborn: Bibliotecas Python para manipulação e visualização de dados.
+* Pandas, Numpy, Matplotlib, Seaborn, Scipy: Bibliotecas Python para manipulação e visualização de dados.
 
      
-## Insights e Achados Principais 📈
+## Insights 📈
 
-Nossas análises rigorosas iluminam um espectro de insights cruciais:
+* Os quartos privados são o tipo mais comum de quarto alugado no Airbnb, seguidos pelos quartos compartilhados e casas/apartamentos inteiros.
+* Os quartos alugados no Airbnb apresentam um alto nível de satisfação, com uma média de 93,56 para quartos privados, 92,83 para quartos compartilhados e 95,21 para casas/apartamentos inteiros.
+* O nível de limpeza é um fator importante para a satisfação dos clientes, com uma correlação positiva moderada entre os dois.
+* A distância do imóvel ao centro não parece influenciar significativamente o valor do aluguel ou a satisfação dos clientes.
+* A distância do imóvel ao centro é menor para anfitriões classificados como bons em comparação com anfitriões não classificados como bons.
+* As atrações turísticas estão mais concentradas próximas ao centro da cidade, mas não parecem influenciar diretamente os preços dos aluguéis.
+* As atrações turísticas podem influenciar o índice dos restaurantes, que, por sua vez, está correlacionado com a satisfação dos clientes.
+* Quanto menor a distância do imóvel ao centro, maior é o índice de satisfação com os restaurantes.
+* As estações de metrô estão localizadas próximas ao centro, o que indica uma boa localização em termos de acessibilidade e conveniência para os locatários.
 
-Forças do Mercado:
+### Algumas sugestões específicas para proprietários de imóveis incluem:
 
-* Diversidade nos tipos de transações, adaptabilidade e atraente potencial de investimento.
-  
-Desafios:
-
-* Vigilância na supervisão, gerenciamento da vulnerabilidade econômica e mitigação das flutuações da demanda.
-  
-Oportunidades Prometedoras:
-
-* Crescimento contínuo do mercado, vias para a inovação e programas de regularização estratégicos.
-
-Panorama de Ameaças:
-
-* Necessidade de maior supervisão e gerenciamento prudente dos riscos de inadimplência.
+* Concentrar-se na limpeza e manutenção dos imóveis para garantir um alto nível de satisfação dos clientes.
+* Localizar os imóveis em áreas próximas ao centro da cidade ou a atrações turísticas populares.
+* Oferecer serviços adicionais para se diferenciar da concorrência.
 
 ## Conclusão 🧐
 
-Este projeto iluminou aspectos cruciais da paisagem imobiliária de São Paulo:
+A análise revelou informações importantes sobre o perfil dos quartos alugados, as correlações entre variáveis relevantes e insights sobre a influência da localização, limpeza, atrações turísticas, restaurantes e bom anfitrião nos aluguéis e satisfação dos clientes. Essas informações podem ser úteis para proprietários de imóveis ao definir preços competitivos, entender as preferências e necessidades dos clientes, e identificar possíveis oportunidades e ameaças no mercado de aluguéis de curta duração.
 
-    🏘️ A relação entre acessibilidade e poder de compra.
-    💰 O impacto de fatores financeiros e físicos nas decisões dos compradores.
-    🏢 Perfis de propriedades diversos e suas implicações para as estratégias de investimento.
-    📊 Tendências e padrões indicativos para oportunidades futuras.
-
-Você pode explorar em detalhes nossas conclusões abrangentes extraídas da análise rigorosa deste projeto em: 
-[Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/Insights/An%C3%A1lises_e_conclus%C3%B5es.ipynb)
-
-Os insights e descobertas encapsulam a essência da exploração baseada em dados, fornecendo implicações valiosas para a tomada de decisão e os próximos passos.
+Você pode explorar em detalhes as conclusões abrangentes extraídas da análise rigorosa deste projeto em: 
+[Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/Case%20Airbnb/Projeto/Projeto_Case_AirBnb.ipynb)
 
 
-## Próximos Passos 🚀
-
-Estas descobertas fornecem a base para estratégias futuras e tomada de decisão informada no setor imobiliário de São Paulo.
-
-A importância de uma análise de dados precisa, aliada a um rigoroso cumprimento dos marcos regulatórios, emerge como a pedra angular de um ecossistema imobiliário resiliente e próspero.
-
-Obrigado por explorar nosso projeto! Sinta-se à vontade para se aprofundar em nossas análises detalhadas e insights.
+Obrigado por explorar meu projeto! Sinta-se à vontade para se aprofundar em minhas análises detalhadas e insights.
 
 Seu feedback é valioso.
 
-Entre em contato conosco para mais informações e fique atento para mais atualizações! 🏠📊
+Entre em contato comigo para mais informações e fique atento para mais atualizações! 🏠📊
 
 Ingrid Laila.
 <div>
