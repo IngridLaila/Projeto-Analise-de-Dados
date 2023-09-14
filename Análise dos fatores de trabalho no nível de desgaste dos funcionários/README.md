@@ -1,135 +1,116 @@
-# Análise do Mercado Imobiliário de SP
+# Análise dos fatores de trabalho no nível de desgaste dos funcionários
 
 ## Visão Geral 🏢
 
-  Bem-vindo ao projeto de análise do mercado imobiliário de São Paulo!
-  Apresentamos uma exploração abrangente da dinâmica do mercado imobiliário em São Paulo.
-  Por meio de uma análise meticulosa, trazemos insights sobre os fatores que estão moldando o mercado em 2022.
+  Bem-vindo ao projeto de análise exploratória de dados de uma base de recursos humanos!
+  Apresento uma análise dos fatores de trabalho no nível de desgastes dos funcionários da empresa fictícia XPTO. 
 
-## Objetivos 🎯
+## Contexto e Objetivos 🎯
 
-Compreender quais as variáveis que afetam o mercado imobiliário, tendo por base dados estatísticos do município de São Paulo.
-Descubrir padrões sutis e fornecer uma compreensão mais profunda da dinâmica do mercado.
+A empresa XPTO está preocupada com a retenção de talentos na companhia e está realizando uma análise descritiva de uma série de atributos dos funcionários tendo como principal objetivo descobrir possíveis relações (e até correlações) que expliquem o nível de desgaste dos funcionários com a empresa. A variável desgaste com valor = sim representa os funcionários que pediram demissão e saíram da empresa por se sentirem desgastados com a XPTO, enquanto essa mesma variável com valor = não representa os funcionários que continuam na empresa.
 
 
 ## 🕵️‍♂️ Análise usando os 5 W's: Entendendo o Problema 🕵️‍♀️
 
 ### 🤷‍♀️ Quem (Who)?
 
-O público-alvo deste trabalho inclui qualquer pessoa interessada em compreender a dinâmica do mercado imobiliário.
+O público-alvo deste trabalho é a empresa fictícia XPTO.
 
 ### 🕵️ O que (What)?
 
-Compreender as variáveis que afetam o mercado imobiliário, incluindo fatores físicos e financeiros, e identificar quais atributos têm maior influência na tomada de decisão dos compradores;
+Compreender as possíveis relações e correlações que expliquem o nível de desgaste dos funcionários na empresa.
 
 ### 📅 Quando (When)?
 
-A análise de dados será realizada com base nos dados de 2022, bem como dados com intervalos de anos que compreende o período de 2012 a 2022.
+Não há um período especificado na base de dados.
 
 ### 🌎 Onde (Where)?
 
-A análise será realizada no contexto do mercado imobiliário do município de São Paulo.
+A análise será realizada no contexto da empresa fictícia XPTO.
 
 ### 🤔 Por que (Why)?
 
-Melhorar a compreensão das dinâmicas complexas que moldam o mercado imobiliário;
+Porque a empresa XPTO deseja reter os seus talentos e ter um ambiente em que os funcionários não se sintam desgastados.
 
 
-## Fontes de dados e integridade  📊
+## Fontes de dados 📊
 
-Nossa análise é alimentada por dados de fontes robustas, incluindo:
+O conjunto de dados escolhido é da área de RH e poderá ser obtido no link: [[Aqui](https://docs.google.com/spreadsheets/d/1I560sJLo3dqjI4yZ0g-oDQ1CT5w2aag1-kK7diSJE3g/edit?usp=sharing)].
 
-Fundação de Pesquisas Econômicas (FIPE), para dados de transações imobiliárias de 2014 a 2023.
-Registros de Imposto Predial e Territorial Urbano (IPTU) e dados de regularização do ITBI do ano de 2022.
 
-Você pode acessar os bancos de dados diretamente [[Aqui](https://drive.google.com/drive/folders/1lsa3B-lTU059I3SmQmTDvgNE0dBgL4zs?usp=sharing)].
+## Análise
 
-Nosso compromisso com a precisão dos dados é mantido por meio da utilização de métodos de coleta de dados estruturados de instituições públicas, garantindo os mais altos padrões de qualidade dos dados.
+Realizei uma análise exploratória usando estatística descritiva apenas dos funcionários desgastados.
 
-## Extração, Transformação e Carregamento (ETL)
+Você encontrará o Excel que explora o processo de suas fontes originais, neste repositório, nas seguintes pastas:
 
-Realizamos o processo de ETL de dados como parte da preparação para a análise.
+Pasta 'Análise em Excel': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20dos%20fatores%20de%20trabalho%20no%20n%C3%ADvel%20de%20desgaste%20dos%20funcion%C3%A1rios/An%C3%A1lise%20em%20Excel/An%C3%A1lise%20de%20dados.xlsx). 
 
-Você encontrará o Notebook Colab que explora o processo de suas fontes originais, neste repositório, nas seguintes pastas:
+Na pasta, você pode encontrar planilhas com distribuições de frequências para os valores quantitativos e qualitativos da base de dados. Além de gráficos ode foi possíel extrair insights valiosos.
 
-Pasta 'ETL da Base ITBI': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20da%20Base%20ITBI/ITBI.ipynb). 
-
-Pasta 'ETL das Bases IPTU e FIPE': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20das%20Bases%20IPTU%20e%20FIPE/ETL_process_BigQuery_IPTU_E_TABELA_FIPE.ipynb.ipynb).
-
-Na pasta "ETL - IPTU E TABELA FIPE", você pode encontrar um álbum de recortes do processo ETL.
-
-Documentação detalhada, com anotações e capturas de tela.
-
-O processo ETL (Extrair, Transformar, Carregar) foi feito usando o BigQuery e é mostrado passo a passo.
-
-Este recurso valioso fornece insights sobre técnicas de manipulação e transformação de dados, permitindo que você rastreie e entenda os passos complexos de preparação de dados.
 
 ## Kit de ferramentas de análise 🛠️
 
 As seguintes ferramentas foram utilizadas:
 
-* Google Cloud Platform (GCP): Armazenamento e processamento de dados.
-* BigQuery: Consultas SQL para análise avançada.
-* Google Colaboratory: Pré-análise e transformação de dados.
-* Pandas, Numpy, Matplotlib, Seaborn: Bibliotecas Python para manipulação e visualização de dados.
-* Looker Studio e Power BI: Criação de painéis estratégicos.
+* Excel: análise e visualização de dados por meio de gráficos.
+* Power Point: apresentação de insights.
+* Looker Studio: visualização de dados.
+
 
 ## Visualização 📊
 
-Explore as visualizações das análises realizadas usando Looker e Power BI.
+Explore as visualizações das análises realizadas usando Looker e a apresentação de insights no Power Point.
 
 As análises detalhadas podem ser acessadas em:
-
-- Power BI: [Aqui](https://app.powerbi.com/view?r=eyJrIjoiYThmMzc4ODEtYWY3Zi00NzExLThkY2ItOGI1ZjdmZWU4N2MxIiwidCI6ImJmYzhlZDQ2LTY3ZTYtNDYzMC04ZDM5LTM3ZWViZTY0NmE1NSJ9)
      
-- Looker: [Aqui](https://lookerstudio.google.com/reporting/8b552f6a-35ff-4656-a7c0-267936c32a97/page/dj2YD)
+- Looker: [Aqui](https://lookerstudio.google.com/reporting/e8bb561d-e082-4f3c-8192-06fa8e1160c5)
+- Power Point:[Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20dos%20fatores%20de%20trabalho%20no%20n%C3%ADvel%20de%20desgaste%20dos%20funcion%C3%A1rios/Slide%20de%20Apresenta%C3%A7%C3%A3o/Apresenta%C3%A7%C3%A3o%20de%20dashboards.pptx).
      
-## Insights e Achados Principais 📈
+## Insights 📈
 
-Nossas análises rigorosas iluminam um espectro de insights cruciais:
+Perfil de funcionários desgastados:
 
-Forças do Mercado:
-
-* Diversidade nos tipos de transações, adaptabilidade e atraente potencial de investimento.
+*  Pelo distribuição de frequência é possível verificarmos que 41% dos funcionários que pediram demissão tinha entre 26 a 34 anos.
+* Os cargos de técnico de laboratório e executivo de vendas são os cargos com maior demissão.
   
-Desafios:
+Fator Salário:
 
-* Vigilância na supervisão, gerenciamento da vulnerabilidade econômica e mitigação das flutuações da demanda.
+*  Apesar a concentração de altos salários, a maioria dos funcionários ganha entre 10.000 - 12.000, isso não influenciou nos pedidos de demissão.
   
-Oportunidades Prometedoras:
+Fator tempo de casa:
 
-* Crescimento contínuo do mercado, vias para a inovação e programas de regularização estratégicos.
+*  Os funcionários que mais desistiram foram aqueles que tinham menos de 12 anos de experiência na empresa, sendo que a maior taxa de desistência ocorreu nos últimos seis anos. Por outro lado, os funcionários com 12 anos ou mais de experiência na empresa foram os que menos desistiram.
 
-Panorama de Ameaças:
 
-* Necessidade de maior supervisão e gerenciamento prudente dos riscos de inadimplência.
+Fator treinamento:
+
+* À primeira vista, os treinamentos não parecem ser a questão das demissões, levando em consideração que, na média, os funcionários receberam treinamentos.
+
+Fator anos trabalhando com o mesmo gestor:
+* Há relação entre a quantidade de anos trabalhados na empresa e a duração do vínculo com o gestor atual, o que indica que os funcionários permaneceram por vários anos com o mesmo gestor. É possível que conflitos ou uma má gestão por parte do gestor tenham levado o funcionário a tomar a decisão de se demitir.
+
+Fator progressão de carreira:
+
+* Com base na falta de progressão na carreira, é possível que o funcionário opte pela demissão. Observando as promoções a partir dos 10 anos de trabalho na empresa, percebemos que os intervalos entre elas estão mais distantes. Essa relação indica um maior tempo necessário para ocorrer uma promoção em relação aos anos de serviço.
+
 
 ## Conclusão 🧐
 
-Este projeto iluminou aspectos cruciais da paisagem imobiliária de São Paulo:
+Este projeto iluminou aspectos cruciais do fator de influência de trabalho nos desgates de funcionários:
 
-    🏘️ A relação entre acessibilidade e poder de compra.
-    💰 O impacto de fatores financeiros e físicos nas decisões dos compradores.
-    🏢 Perfis de propriedades diversos e suas implicações para as estratégias de investimento.
-    📊 Tendências e padrões indicativos para oportunidades futuras.
-
-Você pode explorar em detalhes nossas conclusões abrangentes extraídas da análise rigorosa deste projeto em: 
-[Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/Insights/An%C3%A1lises_e_conclus%C3%B5es.ipynb)
+        O perfil de funcionários desgastados;
+        O impacto dos fatores como: salário, treinamento, plano de carreira e liderança influenciam no desgaste de funcionários.
+    
 
 Os insights e descobertas encapsulam a essência da exploração baseada em dados, fornecendo implicações valiosas para a tomada de decisão e os próximos passos.
 
 
-## Próximos Passos 🚀
-
-Estas descobertas fornecem a base para estratégias futuras e tomada de decisão informada no setor imobiliário de São Paulo.
-
-A importância de uma análise de dados precisa, aliada a um rigoroso cumprimento dos marcos regulatórios, emerge como a pedra angular de um ecossistema imobiliário resiliente e próspero.
-
-Obrigado por explorar nosso projeto! Sinta-se à vontade para se aprofundar em nossas análises detalhadas e insights.
+Obrigado por explorar meu projeto! Sinta-se à vontade para se aprofundar em nossas análises detalhadas e insights.
 
 Seu feedback é valioso.
 
-Entre em contato conosco para mais informações e fique atento para mais atualizações! 🏠📊
+Entre em contato comigo para mais informações e fique atento para mais atualizações! 🏠📊
 
 Ingrid Laila.
 <div>
