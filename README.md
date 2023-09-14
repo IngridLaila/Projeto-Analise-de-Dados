@@ -10,23 +10,23 @@ Este projeto analisa o mercado imobiliário de São Paulo com base em dados de i
 
 As principais conclusões do projeto são:
 
-O mercado imobiliário de São Paulo é diversificado, com imóveis de diferentes tipos, tamanhos e preços.
-Os preços dos imóveis estão em alta, principalmente em regiões mais centrais e valorizadas.
-O interesse por imóveis de menor valor está crescendo, refletindo a mudança no perfil dos compradores.
+    O mercado imobiliário de São Paulo é diversificado, com imóveis de diferentes tipos, tamanhos e preços.
+    Os preços dos imóveis estão em alta, principalmente em regiões mais centrais e valorizadas.
+    O interesse por imóveis de menor valor está crescendo, refletindo a mudança no perfil dos compradores.
 
 O projeto também identificou algumas tendências que podem impactar o mercado imobiliário de São Paulo no futuro, como:
 
-A crescente urbanização da população brasileira.
-O aumento da oferta de imóveis por meio da construção civil.
-A regulamentação do mercado imobiliário.
+    A crescente urbanização da população brasileira.
+    O aumento da oferta de imóveis por meio da construção civil.
+    A regulamentação do mercado imobiliário.
 
 ## Outros projetos
 
 Além do projeto de análise do mercado imobiliário de São Paulo, o repositório também inclui projetos de análise de dados de outras áreas, como:
 
-Análise de dados de hospedagens na Airbnb;
-Análise de dados de acidentes aéreos (Cenipa);
-Análise de dados do mercado de trabalho 
+* Análise de dados de hospedagens na Airbnb;
+* Análise de dados de acidentes aéreos (Cenipa);
+* Análise de dados do mercado de trabalho 
 
 Os projetos são apresentados de forma clara e objetiva, com o objetivo de facilitar a compreensão dos resultados da análise.
 
@@ -34,7 +34,7 @@ Obrigado por visitar este repositório!
 
 Sugestões e comentários são sempre bem-vindos.
 
-Contato:
+## Contato:
 
 Ingrid Laila
 E-mail: inrid.laila21@gmail.com
