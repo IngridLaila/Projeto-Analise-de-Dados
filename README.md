@@ -26,7 +26,7 @@ Além do projeto de análise do mercado imobiliário de São Paulo, o repositór
 
 * Análise de dados de hospedagens na Airbnb;
 * Análise de dados de acidentes aéreos (Cenipa);
-* Análise de dados do mercado de trabalho 
+* Análise de dados de RH.
 
 Os projetos são apresentados de forma clara e objetiva, com o objetivo de facilitar a compreensão dos resultados da análise.
 
