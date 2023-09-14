@@ -9,6 +9,7 @@
 ## Objetivos 🎯
 
 Compreender quais as variáveis que afetam o mercado imobiliário, tendo por base dados estatísticos do município de São Paulo.
+
 Descubrir padrões sutis e fornecer uma compreensão mais profunda da dinâmica do mercado.
 
 
