@@ -1,58 +1,47 @@
-# Análise do Mercado Imobiliário de SP
+# Case Airbnb
 
 ## Visão Geral 🏢
 
-  Bem-vindo ao projeto de análise do mercado imobiliário de São Paulo!
-  Apresentamos uma exploração abrangente da dinâmica do mercado imobiliário em São Paulo.
-  Por meio de uma análise meticulosa, trazemos insights sobre os fatores que estão moldando o mercado em 2022.
+Bem-vindo(a) ao projeto case Airbnb!
 
-## Objetivos 🎯
+Apresento uma análise exploratória de dados com a base de dados do Airbnb e indico possíveis oportunidades e/ou ameaças para o empreendimento.
 
-Compreender quais as variáveis que afetam o mercado imobiliário, tendo por base dados estatísticos do município de São Paulo.
-Descubrir padrões sutis e fornecer uma compreensão mais profunda da dinâmica do mercado.
+## Sobre os dados  📊
+
+O conjunto de dados Airbnb fornece uma visão abrangente dos preços de hospedagens em Amsterdam. Cada listagem é avaliada quanto a várias características, como tipos de quartos, classificações de limpeza e satisfação, número de quartos, distância do centro da cidade e muito mais, para obter uma compreensão detalhada dos preços do Airbnb tanto durante a semana quanto nos fins de semana.
+
+Você pode acessar o banco de dados diretamente [Aqui](https://drive.google.com/file/d/14xMzOHs2YYq2oDAWJIkLNp_QzRXqdtNI/view?usp=sharing).
 
 
 ## 🕵️‍♂️ Análise usando os 5 W's: Entendendo o Problema 🕵️‍♀️
 
 ### 🤷‍♀️ Quem (Who)?
 
-O público-alvo deste trabalho inclui qualquer pessoa interessada em compreender a dinâmica do mercado imobiliário.
+O público-alvo deste trabalho inclui empreendimentos de hospedagens que desejam avaliar a dinâmica das acomodações.
 
 ### 🕵️ O que (What)?
 
-Compreender as variáveis que afetam o mercado imobiliário, incluindo fatores físicos e financeiros, e identificar quais atributos têm maior influência na tomada de decisão dos compradores;
+Compreender as oportunidades e ameaças para o empreendimento;
 
 ### 📅 Quando (When)?
 
-A análise de dados será realizada com base nos dados de 2022, bem como dados com intervalos de anos que compreende o período de 2012 a 2022.
+A análise de dados será realizada com base nos preços durante a semana e fins de semana.
 
 ### 🌎 Onde (Where)?
 
-A análise será realizada no contexto do mercado imobiliário do município de São Paulo.
+A análise será realizada no contexto das acomodações de Amsterdam.
 
 ### 🤔 Por que (Why)?
 
-Melhorar a compreensão das dinâmicas complexas que moldam o mercado imobiliário;
+Melhorar a compreensão das dinâmicas complexas que moldam este mercado;
 
-
-## Fontes de dados e integridade  📊
-
-Nossa análise é alimentada por dados de fontes robustas, incluindo:
-
-Fundação de Pesquisas Econômicas (FIPE), para dados de transações imobiliárias de 2014 a 2023.
-Registros de Imposto Predial e Territorial Urbano (IPTU) e dados de regularização do ITBI do ano de 2022.
-
-Você pode acessar os bancos de dados diretamente [[Aqui](https://drive.google.com/drive/folders/1lsa3B-lTU059I3SmQmTDvgNE0dBgL4zs?usp=sharing)].
-
-Nosso compromisso com a precisão dos dados é mantido por meio da utilização de métodos de coleta de dados estruturados de instituições públicas, garantindo os mais altos padrões de qualidade dos dados.
 
 ## Extração, Transformação e Carregamento (ETL)
 
-Realizamos o processo de ETL de dados como parte da preparação para a análise.
+Realizei o processo de ETL de dados como parte da preparação para a análise.
 
-Você encontrará o Notebook Colab que explora o processo de suas fontes originais, neste repositório, nas seguintes pastas:
-
-Pasta 'ETL da Base ITBI': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20da%20Base%20ITBI/ITBI.ipynb). 
+Você encontrará o Notebook Colab que explora o processo de suas fontes originais, neste repositório, na seguinte pasta:
+[Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20da%20Base%20ITBI/ITBI.ipynb). 
 
 Pasta 'ETL das Bases IPTU e FIPE': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20das%20Bases%20IPTU%20e%20FIPE/ETL_process_BigQuery_IPTU_E_TABELA_FIPE.ipynb.ipynb).
 
@@ -69,20 +58,9 @@ Este recurso valioso fornece insights sobre técnicas de manipulação e transfo
 As seguintes ferramentas foram utilizadas:
 
 * Google Cloud Platform (GCP): Armazenamento e processamento de dados.
-* BigQuery: Consultas SQL para análise avançada.
 * Google Colaboratory: Pré-análise e transformação de dados.
 * Pandas, Numpy, Matplotlib, Seaborn: Bibliotecas Python para manipulação e visualização de dados.
-* Looker Studio e Power BI: Criação de painéis estratégicos.
 
-## Visualização 📊
-
-Explore as visualizações das análises realizadas usando Looker e Power BI.
-
-As análises detalhadas podem ser acessadas em:
-
-- Power BI: [Aqui](https://app.powerbi.com/view?r=eyJrIjoiYThmMzc4ODEtYWY3Zi00NzExLThkY2ItOGI1ZjdmZWU4N2MxIiwidCI6ImJmYzhlZDQ2LTY3ZTYtNDYzMC04ZDM5LTM3ZWViZTY0NmE1NSJ9)
-     
-- Looker: [Aqui](https://lookerstudio.google.com/reporting/8b552f6a-35ff-4656-a7c0-267936c32a97/page/dj2YD)
      
 ## Insights e Achados Principais 📈
 
