@@ -6,7 +6,7 @@ Este repositório reúne projetos de análise de dados realizados por mim, Ingri
 
 ## Projeto de análise do mercado imobiliário de São Paulo
 
-Este projeto analisa o mercado imobiliário de São Paulo com base em dados de imóveis residenciais vendidos na cidade entre 2022 e 2023.
+Este projeto analisa o mercado imobiliário de São Paulo com base em dados de imóveis residenciais vendidos na cidade em 2022.
 
 As principais conclusões do projeto são:
 
