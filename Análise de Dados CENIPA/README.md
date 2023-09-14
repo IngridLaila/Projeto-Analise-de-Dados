@@ -1,4 +1,4 @@
-# Análise do Mercado Imobiliário de SP
+# Análise de dados CENIPA
 
 ## Visão Geral 🏢
 
@@ -70,10 +70,8 @@ Este recurso valioso fornece insights sobre técnicas de manipulação e transfo
 As seguintes ferramentas foram utilizadas:
 
 * Google Cloud Platform (GCP): Armazenamento e processamento de dados.
-* BigQuery: Consultas SQL para análise avançada.
 * Google Colaboratory: Pré-análise e transformação de dados.
 * Pandas, Numpy, Matplotlib, Seaborn: Bibliotecas Python para manipulação e visualização de dados.
-* Looker Studio e Power BI: Criação de painéis estratégicos.
 
 ## Visualização 📊
 
@@ -85,7 +83,7 @@ As análises detalhadas podem ser acessadas em:
      
 - Looker: [Aqui](https://lookerstudio.google.com/reporting/8b552f6a-35ff-4656-a7c0-267936c32a97/page/dj2YD)
      
-## Insights e Achados Principais 📈
+## Insights 📈
 
 Nossas análises rigorosas iluminam um espectro de insights cruciais:
 
@@ -120,17 +118,11 @@ Você pode explorar em detalhes nossas conclusões abrangentes extraídas da an�
 Os insights e descobertas encapsulam a essência da exploração baseada em dados, fornecendo implicações valiosas para a tomada de decisão e os próximos passos.
 
 
-## Próximos Passos 🚀
-
-Estas descobertas fornecem a base para estratégias futuras e tomada de decisão informada no setor imobiliário de São Paulo.
-
-A importância de uma análise de dados precisa, aliada a um rigoroso cumprimento dos marcos regulatórios, emerge como a pedra angular de um ecossistema imobiliário resiliente e próspero.
-
-Obrigado por explorar nosso projeto! Sinta-se à vontade para se aprofundar em nossas análises detalhadas e insights.
+Obrigado por explorar meu projeto! Sinta-se à vontade para se aprofundar em nossas análises detalhadas e insights.
 
 Seu feedback é valioso.
 
-Entre em contato conosco para mais informações e fique atento para mais atualizações! 🏠📊
+Entre em contato comigo para mais informações e fique atento para mais atualizações! 🏠📊
 
 Ingrid Laila.
 <div>
