@@ -1,136 +1,123 @@
-# Análise do Mercado Imobiliário de SP
+# Análise de dados do Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA)
 
 ## Visão Geral 🏢
 
-  Bem-vindo ao projeto de análise do mercado imobiliário de São Paulo!
-  Apresentamos uma exploração abrangente da dinâmica do mercado imobiliário em São Paulo.
-  Por meio de uma análise meticulosa, trazemos insights sobre os fatores que estão moldando o mercado em 2022.
+  O projeto de análise de dados Cenipa apresenta os acidentes aeronáuticos ocorridos em solo brasileiro entre os anos de 2012 a 2021. 
+  Dentre as informações disponíveis da referida base de dados estão os dados sobre as aeronaves envolvidas, fatalidades, local, data, horário dos eventos e informações taxonômicas típicas das investigações de acidentes (AIG).
 
 ## Objetivos 🎯
 
-Compreender quais as variáveis que afetam o mercado imobiliário, tendo por base dados estatísticos do município de São Paulo.
+Compreender os acidentes aéreos ocorridos em solo brasileiro;
 
-Descubrir padrões sutis e fornecer uma compreensão mais profunda da dinâmica do mercado.
+Investigar e previnir acidentes aéreos.
 
 
 ## 🕵️‍♂️ Análise usando os 5 W's: Entendendo o Problema 🕵️‍♀️
 
 ### 🤷‍♀️ Quem (Who)?
 
-O público-alvo deste trabalho inclui qualquer pessoa interessada em compreender a dinâmica do mercado imobiliário.
+A base de dados de ocorrências aeronáuticas é gerenciada pelo CENIPA e se destina a órgãos governamentais, empresas fabricantes de aeronaves, operadores aéreos e profissionais da aviação.
 
 ### 🕵️ O que (What)?
 
-Compreender as variáveis que afetam o mercado imobiliário, incluindo fatores físicos e financeiros, e identificar quais atributos têm maior influência na tomada de decisão dos compradores;
+Compreender os acidentes aéreos ocorridos em solo brasileiro.
 
 ### 📅 Quando (When)?
 
-A análise de dados será realizada com base nos dados de 2022, bem como dados com intervalos de anos que compreende o período de 2012 a 2022.
+A análise de dados será realizada com base nos dados entre 2010 a 2021.
 
 ### 🌎 Onde (Where)?
 
-A análise será realizada no contexto do mercado imobiliário do município de São Paulo.
+A análise será realizada no contexto de acidentes aéreos em solo brasileiro.
 
 ### 🤔 Por que (Why)?
 
-Melhorar a compreensão das dinâmicas complexas que moldam o mercado imobiliário;
+Investigar os acidentes aéreos e possíveis prevenções.
 
 
-## Fontes de dados e integridade  📊
+## Fontes de dados 📊
 
-Nossa análise é alimentada por dados de fontes robustas, incluindo:
+A base de dados utilizada foi de ocorrências aeronáuticas e é gerenciada pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA).
 
-Fundação de Pesquisas Econômicas (FIPE), para dados de transações imobiliárias de 2014 a 2023.
-Registros de Imposto Predial e Territorial Urbano (IPTU) e dados de regularização do ITBI do ano de 2022.
+Você pode acessar a base de dados diretamente [[Aqui](https://dados.gov.br/dados/conjuntos-dados/ocorrencias-aeronauticas-da-aviacao-civil-brasileira)].
 
-Você pode acessar os bancos de dados diretamente [[Aqui](https://drive.google.com/drive/folders/1lsa3B-lTU059I3SmQmTDvgNE0dBgL4zs?usp=sharing)].
-
-Nosso compromisso com a precisão dos dados é mantido por meio da utilização de métodos de coleta de dados estruturados de instituições públicas, garantindo os mais altos padrões de qualidade dos dados.
 
 ## Extração, Transformação e Carregamento (ETL)
 
 Realizamos o processo de ETL de dados como parte da preparação para a análise.
 
-Você encontrará o Notebook Colab que explora o processo de suas fontes originais, neste repositório, nas seguintes pastas:
+Você encontrará o Notebook Colab que explora o processo de suas fontes originais, neste repositório, na seguinte pasta:
 
-Pasta 'ETL da Base ITBI': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20da%20Base%20ITBI/ITBI.ipynb). 
+Pasta 'ETL e Análise Exploratória': [Aqui](). 
 
-Pasta 'ETL das Bases IPTU e FIPE': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/ETL%20das%20Bases%20IPTU%20e%20FIPE/ETL_process_BigQuery_IPTU_E_TABELA_FIPE.ipynb.ipynb).
+Nesta pasta, você pode encontrará a documentação detalhada do processo ETL, com comentários de cada etapa realizada.
 
-Na pasta "ETL - IPTU E TABELA FIPE", você pode encontrar um álbum de recortes do processo ETL.
-
-Documentação detalhada, com anotações e capturas de tela.
-
-O processo ETL (Extrair, Transformar, Carregar) foi feito usando o BigQuery e é mostrado passo a passo.
-
-Este recurso valioso fornece insights sobre técnicas de manipulação e transformação de dados, permitindo que você rastreie e entenda os passos complexos de preparação de dados.
 
 ## Kit de ferramentas de análise 🛠️
 
 As seguintes ferramentas foram utilizadas:
 
 * Google Cloud Platform (GCP): Armazenamento e processamento de dados.
-* BigQuery: Consultas SQL para análise avançada.
-* Google Colaboratory: Pré-análise e transformação de dados.
+* Google Colaboratory: ETL e visualização de dados.
 * Pandas, Numpy, Matplotlib, Seaborn: Bibliotecas Python para manipulação e visualização de dados.
-* Looker Studio e Power BI: Criação de painéis estratégicos.
 
 ## Visualização 📊
 
-Explore as visualizações das análises realizadas usando Looker e Power BI.
+As visualizações das análises realizadas estão no seguinte documento: [clique aqui]().
 
-As análises detalhadas podem ser acessadas em:
-
-- Power BI: [Aqui](https://app.powerbi.com/view?r=eyJrIjoiYThmMzc4ODEtYWY3Zi00NzExLThkY2ItOGI1ZjdmZWU4N2MxIiwidCI6ImJmYzhlZDQ2LTY3ZTYtNDYzMC04ZDM5LTM3ZWViZTY0NmE1NSJ9)
      
-- Looker: [Aqui](https://lookerstudio.google.com/reporting/8b552f6a-35ff-4656-a7c0-267936c32a97/page/dj2YD)
-     
-## Insights e Achados Principais 📈
+## Insights 📈
 
-Nossas análises rigorosas iluminam um espectro de insights cruciais:
-
-Forças do Mercado:
-
-* Diversidade nos tipos de transações, adaptabilidade e atraente potencial de investimento.
+* As 10 cidades com maior número de aeronaves envolvidas com acidentes:
   
-Desafios:
+        RIO DE JANEIRO    374
+        SÃO PAULO         330
+        BELO HORIZONTE    211
+        CAMPINAS          211
+        GUARULHOS         186
+        GOIÂNIA           170
+        BRASÍLIA          159
+        LONDRINA          140
+        MANAUS            131
+        PORTO ALEGRE      115
 
-* Vigilância na supervisão, gerenciamento da vulnerabilidade econômica e mitigação das flutuações da demanda.
+* Mas o estado onde mais ocorre acidentes ainda é SP.
+
+* A maioria são incidentes. Veja:
   
-Oportunidades Prometedoras:
+        INCIDENTE          3792
+        ACIDENTE           2087
+        INCIDENTE GRAVE     884
 
-* Crescimento contínuo do mercado, vias para a inovação e programas de regularização estratégicos.
+* O ano de 2013 foi o ano que mais ocorreu acidentes
 
-Panorama de Ameaças:
+* O mês de março foi o mês que mais ocorreu acidentes
 
-* Necessidade de maior supervisão e gerenciamento prudente dos riscos de inadimplência.
+* A maioria dos acidentes foram fora do aerodromo
 
 ## Conclusão 🧐
 
-Este projeto iluminou aspectos cruciais da paisagem imobiliária de São Paulo:
+A análise dos dados sobre acidentes aéreos no Brasil revela que as principais cidades onde ocorrem mais acidentes são Rio de Janeiro, São Paulo, Belo Horizonte, Campinas, Guarulhos, Goiânia, Brasília, Londrina, Manaus e Porto Alegre. O estado de São Paulo é o que mais concentra acidentes aéreos, seguido do Rio de Janeiro.
 
-    🏘️ A relação entre acessibilidade e poder de compra.
-    💰 O impacto de fatores financeiros e físicos nas decisões dos compradores.
-    🏢 Perfis de propriedades diversos e suas implicações para as estratégias de investimento.
-    📊 Tendências e padrões indicativos para oportunidades futuras.
+A maioria dos acidentes são incidentes, seguidos de acidentes e incidentes graves. O ano de 2013 foi o ano com mais acidentes, e o mês de março foi o mês com mais acidentes. A maioria dos acidentes ocorreu fora do aeródromo.
 
-Você pode explorar em detalhes nossas conclusões abrangentes extraídas da análise rigorosa deste projeto em: 
-[Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/Insights/An%C3%A1lises_e_conclus%C3%B5es.ipynb)
+Esses dados indicam que a segurança da aviação civil no Brasil precisa ser melhorada. Medidas de prevenção devem ser tomadas para reduzir o número de acidentes e incidentes aéreos.
 
-Os insights e descobertas encapsulam a essência da exploração baseada em dados, fornecendo implicações valiosas para a tomada de decisão e os próximos passos.
+Aqui estão algumas sugestões específicas para melhorar a segurança da aviação civil no Brasil:
+
+* Investimento em infraestrutura e tecnologia aeronáutica;
+* Treinamento mais rigoroso para pilotos e controladores de tráfego aéreo;
+* Melhoria da fiscalização e regulamentação da aviação civil;
+* Conscientização pública sobre segurança aeronáutica.
+  
+A implementação dessas medidas pode contribuir para reduzir o número de acidentes aéreos no Brasil e tornar o transporte aéreo mais seguro para todos.
 
 
-## Próximos Passos 🚀
-
-Estas descobertas fornecem a base para estratégias futuras e tomada de decisão informada no setor imobiliário de São Paulo.
-
-A importância de uma análise de dados precisa, aliada a um rigoroso cumprimento dos marcos regulatórios, emerge como a pedra angular de um ecossistema imobiliário resiliente e próspero.
-
-Obrigado por explorar nosso projeto! Sinta-se à vontade para se aprofundar em nossas análises detalhadas e insights.
+Obrigado por explorar meu projeto! Sinta-se à vontade para se aprofundar em nossas análises detalhadas e insights.
 
 Seu feedback é valioso.
 
-Entre em contato conosco para mais informações e fique atento para mais atualizações! 🏠📊
+Entre em contato comigo para mais informações e fique atento para mais atualizações! 🏠📊
 
 Ingrid Laila.
 <div>
