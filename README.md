@@ -8,10 +8,10 @@ Este repositório reúne projetos de análise de dados realizados por mim, Ingri
 
 O repositório inclui projetos de análise de dados de diversas áreas, como:
 
-* [Análise de dados do mercado imobiliário de SP](https://github.com/IngridLaila/Projeto-Analise-de-Dados/tree/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP);
-* [Análise de dados de hospedagens na Airbnb](https://github.com/IngridLaila/Projeto-Analise-de-Dados/tree/main/Case%20Airbnb);
-* [Análise de dados de acidentes aéreos (Cenipa)]((https://github.com/IngridLaila/Projeto-Analise-de-Dados/tree/main/An%C3%A1lise%20de%20Dados%20CENIPA));
-* [Análise de dados de RH.](https://github.com/IngridLaila/Projeto-Analise-de-Dados/tree/main/An%C3%A1lise%20dos%20fatores%20de%20trabalho%20no%20n%C3%ADvel%20de%20desgaste%20dos%20funcion%C3%A1rios)
+* Análise de dados do mercado imobiliário de SP [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/tree/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP);
+* Análise de dados de hospedagens na Airbnb [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/tree/main/Case%20Airbnb);
+* Análise de dados de acidentes aéreos (Cenipa) [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/tree/main/An%C3%A1lise%20de%20Dados%20CENIPA);
+* Análise de dados de RH. [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/tree/main/An%C3%A1lise%20dos%20fatores%20de%20trabalho%20no%20n%C3%ADvel%20de%20desgaste%20dos%20funcion%C3%A1rios)
 
 Os projetos são apresentados de forma clara e objetiva, com o objetivo de facilitar a compreensão dos resultados da análise.
 
