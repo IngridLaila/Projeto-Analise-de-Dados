@@ -109,10 +109,13 @@ Panorama de Ameaças:
 
 Este projeto iluminou aspectos cruciais da paisagem imobiliária de São Paulo:
 
-    🏘️ A relação entre acessibilidade e poder de compra.
-    💰 O impacto de fatores financeiros e físicos nas decisões dos compradores.
-    🏢 Perfis de propriedades diversos e suas implicações para as estratégias de investimento.
-    📊 Tendências e padrões indicativos para oportunidades futuras.
+🏘️ A relação entre acessibilidade e poder de compra.
+
+💰 O impacto de fatores financeiros e físicos nas decisões dos compradores.
+
+🏢 Perfis de propriedades diversos e suas implicações para as estratégias de investimento.
+
+📊 Tendências e padrões indicativos para oportunidades futuras.
 
 Você pode explorar em detalhes nossas conclusões abrangentes extraídas da análise rigorosa deste projeto em: 
 [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20do%20Mercado%20Imobili%C3%A1rio%20de%20SP/Insights/An%C3%A1lises_e_conclus%C3%B5es.ipynb)
