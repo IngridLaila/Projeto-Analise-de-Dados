@@ -48,7 +48,7 @@ Realizamos o processo de ETL de dados como parte da preparação para a análise
 
 Você encontrará o Notebook Colab que explora o processo de suas fontes originais, neste repositório, na seguinte pasta:
 
-Pasta 'ETL e Análise Exploratória': [Aqui](). 
+Pasta 'ETL e Análise Exploratória': [Aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20de%20Dados%20CENIPA/ETL%20e%20An%C3%A1lise%20Explorat%C3%B3ria/An%C3%A1lise_CENIPA.ipynb). 
 
 Nesta pasta, você pode encontrará a documentação detalhada do processo ETL, com comentários de cada etapa realizada.
 
@@ -63,7 +63,7 @@ As seguintes ferramentas foram utilizadas:
 
 ## Visualização 📊
 
-As visualizações das análises realizadas estão no seguinte documento: [clique aqui]().
+As visualizações das análises realizadas estão no seguinte documento: [clique aqui](https://github.com/IngridLaila/Projeto-Analise-de-Dados/blob/main/An%C3%A1lise%20de%20Dados%20CENIPA/ETL%20e%20An%C3%A1lise%20Explorat%C3%B3ria/An%C3%A1lise_CENIPA.ipynb).
 
      
 ## Insights 📈
