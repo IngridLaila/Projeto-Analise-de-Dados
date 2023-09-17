@@ -99,10 +99,10 @@ Fator progressão de carreira:
 
 Este projeto iluminou aspectos cruciais do fator de influência de trabalho nos desgates de funcionários:
 
-        O perfil de funcionários desgastados;
-        O impacto dos fatores como: salário, treinamento, plano de carreira e liderança influenciam no desgaste de funcionários.
+  * O perfil de funcionários desgastados;
+  *  O impacto dos fatores como: salário, treinamento, plano de carreira e liderança influenciam no desgaste de funcionários.
+       
     
-
 Os insights e descobertas encapsulam a essência da exploração baseada em dados, fornecendo implicações valiosas para a tomada de decisão e os próximos passos.
 
 
