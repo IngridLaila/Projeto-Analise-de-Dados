@@ -70,24 +70,36 @@ As visualizações das análises realizadas estão no seguinte documento: [cliqu
 
 * As 10 cidades com maior número de aeronaves envolvidas com acidentes:
   
-        RIO DE JANEIRO    374
-        SÃO PAULO         330
-        BELO HORIZONTE    211
-        CAMPINAS          211
-        GUARULHOS         186
-        GOIÂNIA           170
-        BRASÍLIA          159
-        LONDRINA          140
-        MANAUS            131
-        PORTO ALEGRE      115
+  RIO DE JANEIRO:    374
+  
+  SÃO PAULO:        330
+  
+  BELO HORIZONTE:    211
+  
+  CAMPINAS:          211
+  
+  GUARULHOS:         186
+  
+  GOIÂNIA:          170
+  
+  BRASÍLIA:          159
+  
+  LONDRINA:          140
+  
+  MANAUS:            131
+  
+  PORTO ALEGRE:      115
+  
 
 * Mas o estado onde mais ocorre acidentes ainda é SP.
 
 * A maioria são incidentes. Veja:
   
-        INCIDENTE          3792
-        ACIDENTE           2087
-        INCIDENTE GRAVE     884
+  INCIDENTE:          3792
+  
+  ACIDENTE:           2087
+  
+  INCIDENTE GRAVE:     884
 
 * O ano de 2013 foi o ano que mais ocorreu acidentes
 
